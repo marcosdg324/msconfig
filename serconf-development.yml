@@ -9,7 +9,7 @@ enviroment: development
 jaeger:
   enabled: true
   serviceName: security-service
-  udpHost: localhost
+  udpHost: 172.18.0.12
   udpPort: 6831
   maxPacketSize: 0
   sampler: const
