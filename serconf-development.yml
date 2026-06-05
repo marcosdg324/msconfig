@@ -1,0 +1,19 @@
+cnmysql: server=localhost;port=3307;database=db_security;user=root;password=Aforo255#2019
+cnpostgres: Server=localhost;Port=5434;Database=db_account;User Id=postgres;Password=Aforo255#2019;
+cnmongo: mongodb://aforo255:Aforo255#2019@localhost:27018
+cnmongodatabase: db_history
+cnsql: Server=localhost,1434;Database=db_account;User Id=sa;Password=Aforo255#2019;
+cnmariadb: server=localhost;port=3310;database=db_notification;user=root;password=Aforo255#2019
+cnredis: localhost
+enviroment: development
+jaeger:
+  enabled: true
+  serviceName: security-service
+  udpHost: localhost
+  udpPort: 6831
+  maxPacketSize: 0
+  sampler: const
+seq:
+  enabled: true
+  url: http://localhost:5341
+  token: NoEnsLTylmWmWeeeifYN
